@@ -58,7 +58,7 @@
   }
   
   #choose-list {
-    border-radius: 5% / 15%;
+    border-radius: 5%;
     background-color: #545353;
     padding: 1rem 2rem;
     font-size: 1rem;
@@ -97,7 +97,7 @@
     background-color: #545353;
     padding: 1rem;
     margin-top: .75rem;
-    border-radius: 5% / 15%;
+    border-radius: 5%;
     
   }
   
