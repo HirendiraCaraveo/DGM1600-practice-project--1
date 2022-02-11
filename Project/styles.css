@@ -8,6 +8,7 @@
     width: 960px;
     margin: 0 auto;
     background-color: #13243e;
+    
   }
   
   header {
@@ -16,11 +17,13 @@
   
   header img {
     height: 100px;
-    ali
+    width: 100%;
+    display: flex;
+    
   }
   
   main {
-  
+    
   }
   
   section {
@@ -45,6 +48,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-left: .5rem;
+    border-radius: 10%;
   }
   
   #name-date {
@@ -53,9 +57,11 @@
   }
   
   #choose-list {
+    border-radius: 5% / 15%;
     background-color: #545353;
     padding: 1rem 2rem;
     font-size: 1rem;
+    
   }
   
   ul {
@@ -90,12 +96,18 @@
     background-color: #545353;
     padding: 1rem;
     margin-top: .75rem;
+    border-radius: 5% / 15%;
+    
   }
   
   .interestText {
     margin-top: 1rem;
+    
   }
   
   #copyright {
-    background-color: #d8e459;
+    color: white;
+    text-align: center;
+    background: rgba(2,2,2,0.6);
+    font-size: 10px;
   }
